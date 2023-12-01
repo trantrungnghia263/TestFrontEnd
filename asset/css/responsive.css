@@ -1,0 +1,104 @@
+/* Mobile: */
+/* @media screen and (min-width: 481px) and (max-width: 767px) */
+@media screen and (max-width:767px){
+    /* Responsive Section 1 */
+    .courses .container{
+        padding: 50px 10px;
+        align-items: center;
+    }
+    .row-text{
+        width: 340px;
+    }
+    .row-img-with-text{
+        flex-direction: column;
+    }
+    .row-text .heading-large,.row-text .text-medium{
+        width: 340px;
+    }
+
+    /* Responsive Section 2 */
+    .decor .container{
+        /* padding: 10px;
+        width: 340px; */
+        /* align-items: center; */
+        width: 100%;
+        height: 100%;
+        display: inline-flex;
+        /* height: 917px; */
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .row-img-text{
+        flex-direction: column;
+    }
+    .row-col-1{
+        width: 340px;
+    }
+    .col-1-img{
+        width: 340px;
+        height: auto;
+    }
+    .col-1-img img{
+        width: 100%;
+        height: 100%;
+    }
+    .text--row-1{
+        max-height: 177px;
+    }
+    .show{
+        width: 340px;
+        height: auto;
+        /* text-align: justify; */
+    }
+    .show.active{
+        display: none;
+    }
+
+    .row-col-2{
+        width: 340px;
+        /* height: 477.25px; */
+    }
+    .col-2-img{
+        width: 340px !important;
+        height: auto !important;
+        /* height: 477.25px !important; */
+    }
+    .col-2-img img{
+        width: 340px !important;
+        height: auto !important;
+        /* width: 100%;
+        height: 100%; */
+    }
+}
+/* Responsive Tablet */
+@media screen and (min-width:767px) and (max-width:1440px){
+    .courses .container{
+        width: 100%;
+        padding: 20px 10px;
+    }
+    .row-text{
+        width: 706px;
+        max-width: 1440px;
+    }
+    .row-text .text-medium{
+        width: 519px;
+    }
+    .row-img-with-text{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        /* max-width: 100%; */
+    }
+    .decor{
+        width: 100%;
+    }
+    .decor .container{
+        width: 100%;
+        padding: 20px;
+    }
+    .row-img-text{
+        flex-direction: column;
+    }
+}
